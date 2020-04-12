@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 function BookCount({ type }) {
   const [total, setTotal] = useState(0);
   const totalTypes = type;
-  debugger;
+
   return (
     <React.Fragment>
       {totalTypes.map((value) => (
